@@ -1,0 +1,46 @@
+
+body{
+  text-align: center;
+
+}
+hr{
+
+  border-style: dotted none none;
+  border-width:5px;
+  border-color:grey;
+  width:10%;
+}
+h1,h2{
+color:#66BFBF;
+
+}
+i{
+  color:#66BFBF;
+  border-left: 2em;
+}
+img{
+  height: 250px;
+  width: auto;
+}
+button{
+
+  height: 35px;
+    background: #333;
+  color: #fff;
+
+  width:100px;
+  border-radius: 5rem;
+}
+button:hover{
+  background:#66BFBF;
+}
+
+
+@media (max-width: 1028px){
+
+               body{
+                 font-size: 29px;
+               }
+
+
+}

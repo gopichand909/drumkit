@@ -60,10 +60,7 @@ function makeSound(key) {
       var kick = new Audio('sounds/kick-bass.mp3');
       kick.play();
       break;
-   case "o":
-   var janani = new Audio('sounds/o.mp3');
-   janani.play();
-   break;
+   
 
     default: console.log(key);
 
